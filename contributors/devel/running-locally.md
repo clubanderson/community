@@ -59,10 +59,10 @@ PATH=$PATH:$GOPATH/bin
 In order to run kubernetes you must have the kubernetes code on the local machine. Cloning this repository is sufficient.
 
 ```sh
-git clone --depth=1 https://github.com/kubernetes/kubernetes.git
+git clone --filter=blob:none https://github.com/kubernetes/kubernetes.git
 ```
 
-The `--depth=1` parameter is optional and will ensure a smaller download.
+The `--filter=blob:none` parameter is optional and will ensure a smaller download.
 
 ## Starting the cluster
 
@@ -70,6 +70,8 @@ Set the endpoint for container runtime e.g. containerd
 ```sh
 export CONTAINER_RUNTIME_ENDPOINT="unix:///run/containerd/containerd.sock"
 ```
+
+Optionally set any other environment variables as needed to change the cluster configuration. The possible options are listed at the top of the `./hack/local-up-cluster.sh` script.
 
 In a separate tab of your terminal, run the following:
 
@@ -100,7 +102,11 @@ print the commands to run to point kubectl at the local cluster.
 
 Your cluster is running, and you want to start running containers!
 
-You can now use any of the cluster/kubectl.sh commands to interact with your local setup.
+You can now use any of the cluster/kubectl.sh commands to interact with your local setup after setting your KUBECONFIG
+
+```sh
+export KUBECONFIG=/var/run/kubernetes/admin.kubeconfig
+```
 
 ```sh
 ./cluster/kubectl.sh get pods
@@ -112,10 +118,11 @@ You can now use any of the cluster/kubectl.sh commands to interact with your loc
 While waiting for the provisioning to complete, you can monitor progress in another terminal with these commands.
 
 ```sh
-docker images
-# To watch the process pull the nginx image
-docker ps
-# To watch all Docker processes.
+# containerd
+# To list images
+ctr --namespace k8s.io image ls
+# To list containers
+ctr --namespace k8s.io containers ls
 ```
 
 Once provisioning is complete, you can use the following commands for Kubernetes introspection.
@@ -177,7 +184,15 @@ To start the DNS service, you need to set the following variables:
 ```sh
 KUBE_ENABLE_CLUSTER_DNS=true
 KUBE_DNS_SERVER_IP="10.0.0.10"
-KUBE_DNS_DOMAIN="cluster.local"
+KUBE_DNS_NAME="cluster.local"
 ```
 
 To know more on DNS service you can check out the [docs](http://kubernetes.io/docs/admin/dns/).
+
+### All pod fail to start with a cgroups error of `expected cgroupsPath to be of format "slice:prefix:name" for systemd cgroups`
+
+Your container runtime is using the systemd cgroup driver, but by default `./hack/local-up-cluster.sh` uses cgroupfs.  To correct the mismatch, set the `CGROUP_DRIVER` environment variable to systemd as well.
+
+```sh
+export CGROUP_DRIVER=systemd
+```

@@ -27,21 +27,27 @@ aliases:
     - soltysh
   sig-cloud-provider-leads:
     - andrewsykim
+    - bridgetkromhout
     - cheftako
+    - elmiko
     - nckturner
   sig-cluster-lifecycle-leads:
+    - CecileRobertMichon
     - fabriziopandini
     - justinsb
     - neolit123
     - vincepri
   sig-contributor-experience-leads:
+    - MadhavJivrajani
+    - Priyankasaggu11929
     - cblecker
     - jberkus
+    - kaslin
     - mrbobbytables
     - nikhita
+    - palnabarun
   sig-docs-leads:
     - divya-mohan0209
-    - jimangel
     - kbhawkey
     - natalisucks
     - onlydole
@@ -62,12 +68,14 @@ aliases:
     - jeremyot
     - pmorie
   sig-network-leads:
-    - caseydavenport
-    - dcbw
+    - mikezappa87
+    - shaneutt
     - thockin
   sig-node-leads:
+    - SergeyKanzhelev
     - dchen1107
     - derekwaynecarr
+    - mrunalp
   sig-release-leads:
     - Verolop
     - cpanato
@@ -98,8 +106,8 @@ aliases:
     - cjwagner
     - michelle192837
     - pohly
-    - spiffxp
     - stevekuznetsov
+    - xmcqueen
   sig-ui-leads:
     - floreks
     - maciaszczykm
@@ -109,6 +117,7 @@ aliases:
     - morengab
     - tashimi
   sig-windows-leads:
+    - aravindhp
     - claudiubelu
     - jayunit100
     - jsturtevant
@@ -154,13 +163,15 @@ aliases:
     - jeremyrickard
     - salaxander
   committee-security-response:
+    - SaranBalaji90
     - cjcullen
+    - cji
     - enj
     - joelsmith
     - lukehinds
     - micahhausler
+    - ritazh
     - tabbysable
-    - tallclair
   committee-steering:
     - BenTheElder
     - cblecker

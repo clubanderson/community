@@ -1,8 +1,9 @@
 # This file contains an alphabetically sorted mapping of lowercase GitHub
 # usernames to Kubernetes Slack user IDs.
 users:
-  adisky: U9YRVLTEH
   adheipsingh: T09NY5SBT
+  adilGhaffarDev: U038BLZPX1S
+  adisky: U9YRVLTEH
   alejandrox1: U6AS37R50
   aleksandra-malinowska: U357LUPHS
   alexander-demicev: UR7UCR7RV
@@ -22,8 +23,8 @@ users:
   Bart Farrell: U01DZM7PJDT
   bart0sh: U8VJC20R3
   benjaminapetersen: U0217E7EXV4
-  bentheelder: U1P7T516X
   benoitf: UCQC3DNUA
+  bentheelder: U1P7T516X
   bhumijgupta: U022JUBM3B4
   briandealwis: UAZKM38JV
   bubblemelon: U7K9C643G
@@ -35,14 +36,18 @@ users:
   cdrage: U2TU9NPH9
   CecileRobertMichon: U98JPHB2M
   cfryanr: U0188B6J42H
+  chiukapoor: U045T4QQUE6
+  chrischdi: UBVL9Q4TB
   chrisshort: U2YGXSD9B
   cici37: UTY5J12L9
   CIPHERTron: U024FK4NLAH
   cjcullen: U0ALJAVMF
   cji: U5YSRC21J
   cpanato: U8DFY4TTK
+  csams: U02B6A9GF55
   Dave Smith-Uchida: UDZDED8G2
   david-martin: ULMJ41U73
+  davidfestal: U014B06SVJ9
   Debanitrkl: U02149V23EU
   derekwaynecarr: U0A69N5GQ
   dharmit: U0APPPEKE
@@ -59,6 +64,7 @@ users:
   feiskyer: U0ASA4398
   feloy: UFG7CN85U
   furkatgofurov7: UV31DL3CG
+  g-gaston: U01SS3GFELV
   gianarb: U0FSCELCR
   girishramnani: U9M4K75EU
   gracenng: U01GX18N6H3
@@ -66,6 +72,7 @@ users:
   gsquared94: U0131C0PJBU
   guineveresaenger: U4H2QU3DW
   hackeramitkumar: U045992D532
+  hardys: UFMADFMS4
   hasheddan: ULLQEF30C
   Heba: UHE5TSU4W
   hoegaarden: U7VA4RZS9
@@ -75,8 +82,8 @@ users:
   idealhack: U5NJ3DQM9
   idvoretskyi: U0CBHE6GM
   ilya-zuyev: U018UF2G42F
-  IsaacPD: U01B0C1R9NZ
   imran: U03K4862X7U
+  IsaacPD: U01B0C1R9NZ
   JamesLaverack: U9MK7274Y
   Jason: UB272379N
   jberkhahn: U7Q21LH2S
@@ -87,11 +94,13 @@ users:
   jimangel: U4HSVFA5U
   jlbutler: U0122V3T932
   jmccormick2001: UMPLV0G0H
+  jmprusi: U014TN4HTPB
   jmrodri: U4KATPQ48
   joekr: U02MUT273GA
   Joel Barker: U014AHSTBPA
   joelanford: U1R6NQD8W
   joelsmith: U5SLG8T8F
+  johannesfrey: U7GFDAF8A
   johnbelamaric: U246A1A0N
   johnmcollier: UCVS4TNMQ
   jonasrosland: U0A4G34S2
@@ -99,13 +108,15 @@ users:
   justaugustus: U0E0E78AK
   kadel: U0DE6E8JY
   kaslin: U5ENKU0AE
-  katharine: UBTBNJ6GL
   katcosgrove: U01GDERGEHF
+  katharine: UBTBNJ6GL
   kikisdeliveryservice: U9HFFRFT2
+  killianmuldoon: UGW727X6Z
   kim-tsao: U02U1LDH4T1
   klihub: U9856A799
   klueska: UF3ARH55Y
   Kunal Kushwaha: UQ14U3NAY
+  kylape: UEUST4S22
   LappleApple: U011C07244F
   leonardpahlke: U029NBZFV97
   liggitt: U0BGPQ6DS
@@ -131,34 +142,43 @@ users:
   munnerz: U0EC03FTN
   nate-double-u: U01AWL6BD62
   nawazkh: U03HJN1C81W
+  ncdc: U0A4MJ62V
   nikhita: U2PQHGMLN
   nkubala: UA90QL2BE
+  nrb: U7S597E00
   nzoueidi: UBU72MWP2
   onlydole: U1DD4AZND
   oscr: U0183J37JUQ
+  p0lyn0mial: U1Q8CER5M
   pabloschuhmacher: U01AAGZ06KU
   palnabarun: UBH9NTMBM
   paris: U5SB22BBQ
-  psaggu: U012EE74CU8
   pb82: U019M8295AQ
   pensu91: U44FHF81G
   phenixblue: UB4UVLEAK
   pnbrown: U011JJTQVGF
   pohly: U91901TMF
+  prajyot-parab: U02MVRCN8CX
   prietyc123: U01D4MBLM52
+  psaggu: U012EE74CU8
   puerco: ULGHLJ7TP
   PurneswarPrasad: U027CFKVAB0
+  pweil-: U0AL6882X
   r-lawton: U019CNHR2E6
   rajula96reddy: U7K9EK1HC
   rashmigottipati: U013T1DD3PW
   reylejano: U01GDNJL5MW
   Rin Oliver: USF4LMDCN
+  ritazh: U5CMBA9RD
   rm3l: U034AQUV7PB
   rnapoles-rh: U01KDAMSWJD
   robshelly: U01LL4P09SR
   rtaniwa: U03K27HLHKN
+  s-urbaniak: U0DT660QM
+  sadysnaat: UNQPKAQHE
   sammy: U8NJFL023
   sandipanpanda: U02A47HJ517
+  SaranBalaji90: U6PNPSULW
   saschagrunert: U53SUDBD4
   savitharaghunathan: UC8U2V3BM
   sayantani11: U028S6XNVSN
@@ -170,6 +190,8 @@ users:
   shubham-pampattiwar: U01QW84HBBN
   simplytunde: UAY1NBYHE
   Sladyn Nunes: UQ9J177Q8
+  stevekuznetsov: U0DUKNE6B
+  sttts: U0A2VFE8J
   Sujay Pillai: UBW3N1VGW
   sumitranr: UCQN13L9H
   swamymsft: UHU7ZNXH8
@@ -179,6 +201,7 @@ users:
   tejal29: UACD7R316
   theishshah: U01891A4TRS
   thejoycekung: U01AY4VHX25
+  tobiasgiese: U01C1NM8D8F
   tpepper: U6UB5V4TX
   tstromberg: UCSL5SJ8Z
   Tunde: UAY977ENN
@@ -186,6 +209,7 @@ users:
   varshaprasad96: UK59YP2DA
   Verolop: U7NNE57PU
   VibhorChinda: U031EALE91D
+  vincepri: UCD11GCET
   vladimirmukhin: UHVSCSD4G
   vzhukovs: U030TR1FG85
   wilsonehusin: U0100068GF2

@@ -16,8 +16,9 @@ Prerequisites:
 - [Install etcd](https://github.com/coreos/etcd/releases) and include the path to the installation in your PATH
   - Verify etcd is installed correctly by running `which etcd`
   - Or make etcd binary available and executable at `/tmp/etcd`
-- [Install ginkgo](https://github.com/onsi/ginkgo) and include the path to the installation in your PATH
-  - Verify ginkgo is installed correctly by running `which ginkgo`
+- [containerd](https://github.com/containerd/containerd) configured with the cgroupfs driver
+- Working CNI
+  - Ensure that you have a valid CNI configuration in /etc/cni/net.d/. For testing purposes, a [bridge](https://www.cni.dev/plugins/current/main/bridge/) configuration should work.
 
 From the Kubernetes base directory, run:
 
@@ -192,7 +193,7 @@ However, image configuration files select test cases based on the `tests` field.
 
 See https://github.com/kubernetes/test-infra/blob/4572dc3bf92e70f572e55e7ac1be643bdf6b2566/jobs/e2e_node/benchmark-config.yaml#L22-23 for an example configuration. 
 
-If the [Prow e2e job configuration](https://github.com/kubernetes/test-infra/blob/master/jobs/e2e_node/image-config.yaml) does **not** specify the `tests` field, FOCUS and SKIP will run as expected.
+If the [Prow e2e job configuration](https://github.com/kubernetes/test-infra/blob/master/jobs/e2e_node/containerd/image-config.yaml) does **not** specify the `tests` field, FOCUS and SKIP will run as expected.
 
 # Additional test options for both remote and local execution
 
@@ -307,7 +308,7 @@ For example,
     /test pull-kubernetes-node-e2e
     flake due to #12345
 
-The PR builder runs tests against the images listed in [image-config.yaml](https://github.com/kubernetes/test-infra/blob/master/jobs/e2e_node/image-config.yaml).
+The PR builder runs tests against the images listed in [image-config.yaml](https://github.com/kubernetes/test-infra/blob/master/jobs/e2e_node/containerd/image-config.yaml).
 
 Other [node e2e Prow jobs](https://github.com/kubernetes/test-infra/tree/master/config/jobs/kubernetes/sig-node)
 run against different images depending on the configuration chosen in the
@@ -353,3 +354,14 @@ metadata:
 Please note that if you add the annotations, then you must provide the full information:
 you must should specify the number of SRIOV devices attached to each NUMA node in the system,
 even if the number is zero.
+
+# Debugging E2E Tests Locally
+
+1. Install kubectl on the node
+2. Set your KUBCONFIG environment variable to reference the kubeconfig created by the e2e node tests
+   `export KUBECONFIG=./_output/local/go/bin/kubeconfig`
+3. Inspect the node and pods as needed while the tests are running
+   ```
+   $ kubectl get pod -A
+   $ kubectl describe node
+   ```

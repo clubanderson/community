@@ -52,12 +52,14 @@ usergroups:
       - sig-release
     members:
       - cjcullen
+      - cji
       - enj
       - joelsmith
       - lukehinds
       - micahhausler
+      - ritazh
+      - SaranBalaji90
       - tabbysable
-      - tallclair
 
   - name: velero-maintainers
     long_name: Velero Maintainers
@@ -158,10 +160,6 @@ usergroups:
     channels:
       - odo
     members:
-      - cdrage
-      - dharmit
-      - mohammedzee1000
-      - prietyc123
       - kadel
       - feloy
       - anandrkskd
@@ -248,17 +246,48 @@ usergroups:
     long_name: Cluster API Release Team
     description: Members of the Cluster API Release Team
     members:
-      - alexander-demicev
+      - adilGhaffarDev
       - aniruddha2000
       - CecileRobertMichon
-      - cpanato
-      - dntosas
+      - chiukapoor
+      - chrischdi
       - furkatgofurov7
+      - g-gaston
       - hackeramitkumar
       - joekr
+      - johannesfrey
+      - killianmuldoon
       - nawazkh
-      - oscr
-      - sayantani11
+      - prajyot-parab
+      - sadysnaat
       - sbueringer
-      - VibhorChinda
-      - ykakarap
+      - tobiasgiese
+
+  - name: kcp-devs
+    long_name: kcp Development Team
+    description: Active developers of kcp on #kcp-dev
+    members:
+      - csams
+      - davidfestal
+      - hardys
+      - jmprusi
+      - kylape
+      - ncdc
+      - nrb
+      - p0lyn0mial
+      - pweil-
+      - s-urbaniak
+      - stevekuznetsov
+      - sttts
+      - vincepri
+
+  - name: github-admins
+    long_name: Kubernetes GitHub Admins
+    description: Administrators of the Kubernetes GitHub organisations
+    members:
+      - ameukam
+      - cblecker
+      - idvoretskyi
+      - mrbobbytables
+      - nikhita
+      - palnabarun

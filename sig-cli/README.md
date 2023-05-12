@@ -32,7 +32,7 @@ The [charter](charter.md) defines the scope and governance of the CLI Special In
 ### Chairs
 The Chairs of the SIG run operations and processes governing the SIG.
 
-* Katrina Verey (**[@KnVerey](https://github.com/KnVerey)**), Shopify
+* Katrina Verey (**[@KnVerey](https://github.com/KnVerey)**), Independent
 * Eddie Zaneski (**[@eddiezane](https://github.com/eddiezane)**), Chainguard, Inc
 * Sean Sullivan (**[@seans3](https://github.com/seans3)**), Google
 
@@ -40,7 +40,7 @@ The Chairs of the SIG run operations and processes governing the SIG.
 The Technical Leads of the SIG establish new subprojects, decommission existing
 subprojects, and resolve cross-subproject technical issues and decisions.
 
-* Katrina Verey (**[@KnVerey](https://github.com/KnVerey)**), Shopify
+* Katrina Verey (**[@KnVerey](https://github.com/KnVerey)**), Independent
 * Maciej Szulik (**[@soltysh](https://github.com/soltysh)**), Red Hat
 
 ## Emeritus Leads
@@ -96,6 +96,12 @@ Centralized plugin index for krew.
 - **Owners:**
   - [kubernetes/kubectl](https://github.com/kubernetes/kubectl/blob/master/OWNERS)
   - [kubernetes/kubernetes/pkg/kubectl](https://github.com/kubernetes/kubernetes/blob/master/pkg/kubectl/OWNERS)
+### kubectl-validate
+CLI Tool for validating Kubernetes resources from their OpenAPIV3
+schemas on client-side aiming for best parity with errors returned
+by server. Supports core resources, CRDs, CEL validations, and more!
+- **Owners:**
+  - [kubernetes-sigs/kubectl-validate](https://github.com/kubernetes-sigs/kubectl-validate/blob/main/OWNERS)
 ### kui
 Hybrid command-line/UI development experience for cloud-native development
 - **Owners:**

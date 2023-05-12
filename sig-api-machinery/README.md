@@ -60,6 +60,9 @@ The following [working groups][working-group-definition] are sponsored by sig-ap
 ## Subprojects
 
 The following [subprojects][subproject-definition] are owned by sig-api-machinery:
+### cel-admission-webhook
+- **Owners:**
+  - [kubernetes/cel-admission-webhook](https://github.com/kubernetes/cel-admission-webhook/blob/main/OWNERS)
 ### component-base
 - **Owners:**
   - [kubernetes-sigs/legacyflag](https://github.com/kubernetes-sigs/legacyflag/blob/master/OWNERS)
@@ -110,8 +113,8 @@ The following [subprojects][subproject-definition] are owned by sig-api-machiner
   - [kubernetes/kubernetes/cmd/cloud-controller-manager](https://github.com/kubernetes/kubernetes/blob/master/cmd/cloud-controller-manager/OWNERS)
   - [kubernetes/kubernetes/cmd/kube-apiserver](https://github.com/kubernetes/kubernetes/blob/master/cmd/kube-apiserver/OWNERS)
   - [kubernetes/kubernetes/cmd/kube-controller-manager](https://github.com/kubernetes/kubernetes/blob/master/cmd/kube-controller-manager/OWNERS)
+  - [kubernetes/kubernetes/pkg/controlplane](https://github.com/kubernetes/kubernetes/blob/master/pkg/controlplane/OWNERS)
   - [kubernetes/kubernetes/pkg/kubeapiserver](https://github.com/kubernetes/kubernetes/blob/master/pkg/kubeapiserver/OWNERS)
-  - [kubernetes/kubernetes/pkg/master](https://github.com/kubernetes/kubernetes/blob/master/pkg/master/OWNERS)
   - [kubernetes/kubernetes/staging/src/k8s.io/controller-manager](https://github.com/kubernetes/kubernetes/blob/master/staging/src/k8s.io/controller-manager/OWNERS)
 ### server-crd
 - **Owners:**

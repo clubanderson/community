@@ -24,12 +24,16 @@ The [charter](charter.md) defines the scope and governance of the Contributor Ex
 The Chairs of the SIG run operations and processes governing the SIG.
 
 * Josh Berkus (**[@jberkus](https://github.com/jberkus)**), Red Hat
+* Kaslin Fields (**[@kaslin](https://github.com/kaslin)**), Google
 * Bob Killen (**[@mrbobbytables](https://github.com/mrbobbytables)**), Google
+* Nabarun Pal (**[@palnabarun](https://github.com/palnabarun)**), VMware
 
 ### Technical Leads
 The Technical Leads of the SIG establish new subprojects, decommission existing
 subprojects, and resolve cross-subproject technical issues and decisions.
 
+* Madhav Jivrajani (**[@MadhavJivrajani](https://github.com/MadhavJivrajani)**), VMware
+* Priyanka Saggu (**[@Priyankasaggu11929](https://github.com/Priyankasaggu11929)**), SUSE
 * Christoph Blecker (**[@cblecker](https://github.com/cblecker)**), Red Hat
 * Nikhita Raghunath (**[@nikhita](https://github.com/nikhita)**), VMware
 
@@ -70,7 +74,7 @@ Contributor Communications focuses on amplifying the success of Kubernetes contr
   - [kubernetes-sigs/lwkd](https://github.com/kubernetes-sigs/lwkd/blob/main/OWNERS)
   - [kubernetes/community/communication/contributor-comms](https://github.com/kubernetes/community/blob/master/communication/contributor-comms/OWNERS)
 - **Meetings:**
-  - Contributor Comms - Upstream Marketing Team Meeting: [Fridays at 8:00 PT (Pacific Time)](https://zoom.us/j/596959769?pwd=TURBNlZPb3BEWVFmbWlCYXlMVVJiUT09) (weekly). [Convert to your timezone](http://www.thetimezoneconverter.com/?t=8:00&tz=PT%20%28Pacific%20Time%29).
+  - Contributor Comms - Contributor Comms Team Meeting: [Fridays at 8:00 PT (Pacific Time)](https://zoom.us/j/596959769?pwd=TURBNlZPb3BEWVFmbWlCYXlMVVJiUT09) (weekly). [Convert to your timezone](http://www.thetimezoneconverter.com/?t=8:00&tz=PT%20%28Pacific%20Time%29).
     - [Meeting notes and Agenda](https://docs.google.com/document/d/1KDoqbw2A6W7rLSbIRuOlqH8gkoOnp2IHHuV9KyJDD2c/edit).
     - [Meeting recordings](https://www.youtube.com/playlist?list=PL69nYSiGNLP2x_48wbOPO0vXQgNTm_xxr).
 ### contributors-documentation
@@ -96,11 +100,6 @@ Creates and runs contributor-focused events, such as the Contributor Summit.  Ev
   - [kubernetes/community/events](https://github.com/kubernetes/community/blob/master/events/OWNERS)
 - **Contact:**
   - Slack: [#sig-contribex](https://kubernetes.slack.com/messages/sig-contribex)
-- **Meetings:**
-  - Office Hours European Edition (Open Q&A for end-user kubernetes related questions): [Wednesdays at 09:00 ET (Eastern Time)](https://hackmd.io/@k8s/office-hours) (monthly on 3rd Wednesday). [Convert to your timezone](http://www.thetimezoneconverter.com/?t=09:00&tz=ET%20%28Eastern%20Time%29).
-  - Office Hours Western Edition (Open Q&A for end-user kubernetes related questions): [Wednesdays at 12:00 ET (Eastern Time)]() (monthly on 3rd Wednesday). [Convert to your timezone](http://www.thetimezoneconverter.com/?t=12:00&tz=ET%20%28Eastern%20Time%29).
-    - [Meeting notes and Agenda](https://hackmd.io/@k8s/office-hours).
-    - [Meeting recordings](https://www.youtube.com/playlist?list=PL69nYSiGNLP3azFUvYJjGn45YbF6C-uIg).
 ### github-management
 Manages and controls Github permissions, repos, and groups, including Org Membership.
 - **Owners:**
@@ -119,7 +118,7 @@ Manages and controls Github permissions, repos, and groups, including Org Member
     - [Meeting notes and Agenda](https://docs.google.com/document/d/1IiVrr1hcFWmbboExk971FsMUGfr2Wp68mdMribCuzLs/edit).
     - [Meeting recordings](https://www.youtube.com/playlist?list=PL69nYSiGNLP2x_48wbOPO0vXQgNTm_xxr).
 ### mentoring
-Oversees and develops programs for helping contributors ascend the contributor ladder, including the New Contributor Workshops, Meet Our Contributors, and other programs.
+Oversees and develops programs for helping contributors ascend the contributor ladder, including the New Contributor Workshops, and other programs.
 - **Owners:**
   - [kubernetes-sigs/contributor-katacoda](https://github.com/kubernetes-sigs/contributor-katacoda/blob/main/OWNERS)
   - [kubernetes-sigs/contributor-playground](https://github.com/kubernetes-sigs/contributor-playground/blob/master/OWNERS)
@@ -143,8 +142,8 @@ This is a collection of presentations from our SIG members around contributing t
 
 This is the work we've done this past cycle and plan to work on in the future:
 
-- [Contributor Experience Community Update](https://youtu.be/J3O8fXTm3HE?t=148) (July 2020)
-  - [Slides](https://docs.google.com/presentation/d/1BS7liUs1WDSPnpNXIHRtRSKhGzK9usS5qzpry_9YU-I/edit?usp=sharing) 
+- [From Automation to Community: A Deep Dive Into SIG Contributor Experience](https://youtu.be/5Bs1bs6iFmY) (April 2023)
+  - [Slides](https://docs.google.com/presentation/d/1BNej12r_YN_0FSYgthPWvOqpcS53oiHS) 
 
 ## General Presentations
 
@@ -157,6 +156,9 @@ This is the work we've done this past cycle and plan to work on in the future:
 
 We give our SIG status at every KubeCon, here are our most current talks:
 
+- [From Automation to Community: A Deep Dive Into SIG Contributor Experience, Europe 2023](https://youtu.be/5Bs1bs6iFmY) - Madhav Jivrajani, Priyanka Saggu, Kaslin Fields
+- [SIG Contributor Experience Deep Dive, North America 2022](https://www.youtube.com/watch?v=C-k_h3vzWxE) - Nabarun Pal & Madhav Jivrajani, Marky Jackson, Kaslin Fields
+- [SIG Contributor Experience Deep Dive, Europe 2022](https://www.youtube.com/watch?v=hD6ZtmEIbEQ) - Alison Dowdney, Christoph Blecker, Bob Killen
 - [SIG Contributor Experience Deep Dive, North America 2021](https://youtu.be/QOiyWWFjG5Q) - Alison Dowdney, Christoph Blecker
 - [SIG Contributor Experience Deep Dive, Europe 2021](https://youtu.be/vPK3QmVOE4Y) - Bob Killen, Alison Dowdney, Christoph Blecker, Nikhita Raghunath
 - [Introdution to Contributor Experience 2020](https://youtu.be/VeCMQoNHFMU) - Bob Killen, Jorge Castro 

@@ -23,10 +23,9 @@ The [charter](charter.md) defines the scope and governance of the Testing Specia
 ### Chairs
 The Chairs of the SIG run operations and processes governing the SIG.
 
-* Benjamin Elder (**[@BenTheElder](https://github.com/BenTheElder)**), Google
 * Michelle Shepardson (**[@michelle192837](https://github.com/michelle192837)**), Google
-* Aaron Crickenberger (**[@spiffxp](https://github.com/spiffxp)**), Google
 * Steve Kuznetsov (**[@stevekuznetsov](https://github.com/stevekuznetsov)**), Red Hat
+* Brian McQueen (**[@xmcqueen](https://github.com/xmcqueen)**), LinkedIn
 
 ### Technical Leads
 The Technical Leads of the SIG establish new subprojects, decommission existing
@@ -41,6 +40,7 @@ subprojects, and resolve cross-subproject technical issues and decisions.
 ## Emeritus Leads
 
 * Erick Fejta (**[@fejta](https://github.com/fejta)**)
+* Aaron Crickenberger (**[@spiffxp](https://github.com/spiffxp)**)
 * Timothy St. Clair (**[@timothysc](https://github.com/timothysc)**)
 
 ## Contact
@@ -61,6 +61,10 @@ The following [working groups][working-group-definition] are sponsored by sig-te
 ## Subprojects
 
 The following [subprojects][subproject-definition] are owned by sig-testing:
+### Cloud Provider for KIND
+Cloud provider for KIND clusters
+- **Owners:**
+  - [kubernetes-sigs/cloud-provider-kind](https://github.com/kubernetes-sigs/cloud-provider-kind/blob/main/OWNERS)
 ### boskos
 Boskos is a resource manager service that handles different kinds of resources and transitions between different states. We use it on the Kubernetes project to manage pools of GCP projects for CI/CD.
 - **Owners:**
@@ -113,9 +117,12 @@ Miscellaneous tools and configuration to run the testing infrastructure for the 
 | KubeCon NA 2018 - SIG Testing Intro | [Slides](https://docs.google.com/presentation/d/1HOQ2df_AT-vIuz-JNaJol2oiGq84m50h9T49_5WgEaI/edit?usp=sharing) | [Video](https://www.youtube.com/watch?v=7-_O41W3FRU) | @spiffxp, @stevekuznetsov |
 | KubeCon NA 2018 - SIG Testing Deep Dive | [Slides](https://static.sched.com/hosted_files/kccna18/9b/Kubecon%20Seattle%20SIG-Testing%20Deep%20Dive%20%281%29.pdf) | [Video](https://www.youtube.com/watch?v=1rwiKDTJILY) | @cjwagner, @Katharine |
 | KubeCon NA 2018 - Behind Your PR: How Kubernetes Uses Kubernetes to Run Kubernetes CI | [Slides](https://static.sched.com/hosted_files/kccna18/3e/KubeCon%20Seattle%20Talk.pdf) | [Video](https://www.youtube.com/watch?v=pz0lpl6h-Gc) | @BenTheElder, @krzyzacy |
+| KubeCon China 2018 - Intro: SIG Testing | [Slides](https://static.sched.com/hosted_files/kccncchina2018english/97/KubeCon%20China%20SIG%20Testing%20Intro%20%281%29.pdf) | [Video](https://www.youtube.com/watch?v=WFvC_VdkDFk) | @krzyzacy, @jessiezcc |
 | KubeCon EU 2019 - SIG Testing Intro | [Slides](https://static.sched.com/hosted_files/kccnceu19/c8/SIG-Testing%20Intro%20Kubecon%20EU%202019.pdf) | [Video](https://www.youtube.com/watch?v=_uO5gHVTzF8) | @cjwagner, @AishSundar |
 | KubeCon EU 2019 - SIG Testing Deep Dive | TBD | [Video](https://www.youtube.com/watch?v=6m9frvTxK0o) | @BenTheElder, @munnerz |
 | KubeCon EU 2019 - Testing Your K8s Apps with Kind | TBD | [Video](https://www.youtube.com/watch?v=8KtmevMFfxA) | @BenTheElder, @munnerz | 
+| KubeCon NA 2019 - SIG Testing Intro | [Slides](https://static.sched.com/hosted_files/kccncna19/50/Sig-Testing%20Intro%20Presentation.pdf) | [Video](https://www.youtube.com/watch?v=WFvC_VdkDFk) | @chases2, @fejta
+| KubeCon NA 2022 - SIG Testing: Intro And Updates | TBD | [Video](https://www.youtube.com/watch?v=CdKBl6CncHg) | @BenTheElder, @michelle192837, @chaodaiG, @aojea
 
 
 <!-- END CUSTOM CONTENT -->

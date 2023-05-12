@@ -24,7 +24,15 @@ The [charter](charter.md) defines the scope and governance of the Apps Special I
 The Chairs of the SIG run operations and processes governing the SIG.
 
 * Janet Kuo (**[@janetkuo](https://github.com/janetkuo)**), Google
-* Kenneth Owens (**[@kow3ns](https://github.com/kow3ns)**), Brex
+* Kenneth Owens (**[@kow3ns](https://github.com/kow3ns)**), Snowflake
+* Maciej Szulik (**[@soltysh](https://github.com/soltysh)**), Red Hat
+
+### Technical Leads
+The Technical Leads of the SIG establish new subprojects, decommission existing
+subprojects, and resolve cross-subproject technical issues and decisions.
+
+* Janet Kuo (**[@janetkuo](https://github.com/janetkuo)**), Google
+* Kenneth Owens (**[@kow3ns](https://github.com/kow3ns)**), Snowflake
 * Maciej Szulik (**[@soltysh](https://github.com/soltysh)**), Red Hat
 
 ## Emeritus Leads
@@ -74,6 +82,7 @@ Application metadata descriptor CRD
 ### workloads-api
 The core workloads API, which is composed of the CronJob, DaemonSet, Deployment, Job, ReplicaSet, ReplicationController, PodDisruptionBudget and StatefulSet kinds
 - **Owners:**
+  - [kubernetes-sigs/jobset](https://github.com/kubernetes-sigs/jobset/blob/main/OWNERS)
   - [kubernetes/kubernetes/pkg/apis/apps](https://github.com/kubernetes/kubernetes/blob/master/pkg/apis/apps/OWNERS)
   - [kubernetes/kubernetes/pkg/apis/batch](https://github.com/kubernetes/kubernetes/blob/master/pkg/apis/batch/OWNERS)
   - [kubernetes/kubernetes/pkg/apis/core/v1](https://github.com/kubernetes/kubernetes/blob/master/pkg/apis/core/v1/OWNERS)

@@ -25,12 +25,13 @@ The Chairs of the SIG run operations and processes governing the SIG.
 
 * Justin Santa Barbara (**[@justinsb](https://github.com/justinsb)**), Google
 * Lubomir Ivanov (**[@neolit123](https://github.com/neolit123)**), VMware
-* Vince Prignano (**[@vincepri](https://github.com/vincepri)**), VMware
+* Vince Prignano (**[@vincepri](https://github.com/vincepri)**), Red Hat
 
 ### Technical Leads
 The Technical Leads of the SIG establish new subprojects, decommission existing
 subprojects, and resolve cross-subproject technical issues and decisions.
 
+* Cecile Robert-Michon (**[@CecileRobertMichon](https://github.com/CecileRobertMichon)**), Microsoft
 * Fabrizio Pandini (**[@fabriziopandini](https://github.com/fabriziopandini)**), VMware
 
 ## Emeritus Leads
@@ -214,7 +215,7 @@ A collection of cross-provider Kubernetes virtual machine image building utiliti
   - Slack: [#image-builder](https://kubernetes.slack.com/messages/image-builder)
   - [Mailing List](https://groups.google.com/forum/#!forum/kubernetes-sig-cluster-lifecycle)
 - **Meetings:**
-  - Image Builder office hours: [Thursdays at 08:00 PT (Pacific Time)](https://zoom.us/j/807524571?pwd=WEFTeDJzeWU3bVFkcWQ0UEdZRkRCdz09) (biweekly). [Convert to your timezone](http://www.thetimezoneconverter.com/?t=08:00&tz=PT%20%28Pacific%20Time%29).
+  - Image Builder office hours: [Mondays at 08:30 PT (Pacific Time)](https://zoom.us/j/807524571?pwd=WEFTeDJzeWU3bVFkcWQ0UEdZRkRCdz09) (biweekly). [Convert to your timezone](http://www.thetimezoneconverter.com/?t=08:30&tz=PT%20%28Pacific%20Time%29).
     - [Meeting notes and Agenda](https://docs.google.com/document/d/1YIOD0Nnid_0h6rKlDxcbfJaoIRNO6mQd9Or5vKRNxaU/edit).
     - [Meeting recordings](https://www.youtube.com/playlist?list=PL69nYSiGNLP29D0nYgAGWt1ZFqS9Z7lw4).
 ### kOps
@@ -253,6 +254,10 @@ A project that uses Ansible / Vagrant for deploying production ready clusters on
 - **Contact:**
   - Slack: [#kubespray](https://kubernetes.slack.com/messages/kubespray)
   - [Mailing List](https://groups.google.com/forum/#!forum/kubernetes-sig-cluster-lifecycle)
+### logical-cluster
+A set of APIs to improve the Kubernetes user experience for cluster administration by offering utilities to interact with fleet of clusters which can be managed by Cluster API, or other entities (like cloud providers).
+- **Owners:**
+  - [kubernetes-sigs/logical-cluster](https://github.com/kubernetes-sigs/logical-cluster/blob/main/OWNERS)
 ### minikube
 Implements a local Kubernetes cluster for application development on macOS, Linux, and Windows
 - **Owners:**

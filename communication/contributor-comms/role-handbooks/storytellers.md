@@ -33,7 +33,7 @@ There are multiple ways to successfully contribute a Kubernetes blog post. Here 
 * Connect with a storyteller -- if you reach out to Contributor Comms, you will be paired with someone to help you through writing, editing, and getting your article published
   * Discussion happens via GitHub issue or through working group meetings
 * This includes working with Contributor Comms team to polish, and format your blog post
-  * There is not a single canonical format for documents, but we do have [guidelines for effective articles](https://github.com/kubernetes/community/blob/master/communication/contributor-comms/blog-guidelines.md#how-to-write-an-effective-blog)
+  * There is not a single canonical format for documents, but we do have [guidelines for effective articles](https://github.com/kubernetes/community/tree/master/sig-docs/blog-subproject#blog-guidelines)
   * There are further technical considerations by the [Blog team](https://github.com/kubernetes/community/blob/4026287dc3a2d16762353b62ca2fe4b80682960a/sig-docs/blog-subproject/README.md#submit-a-post)
 
 When it's ready, submit the blog post: 
@@ -76,7 +76,7 @@ If you would like to be listed as a member of the team, here are the expectation
 3. Remain non-partial: if you receive a request to write about a project, an individual, or a group of people from your employer, you should ask an impartial blogger to write it.
 4. As with all contribution to Kubernetes, adhere to the [code of conduct](/code-of-conduct.md), values, and principles of the project.
 
-There is no shadow roles for Storytellers. If Storytellers are interested in becoming a shadow they can read more about it in the [Marketing Council Handbook].
+There are no shadow roles for Storytellers. If Storytellers are interested in becoming a shadow they can read more about the available leadership roles in the Contributor Comms [Role handbooks](https://github.com/kubernetes/community/tree/master/communication/contributor-comms/role-handbooks).
 
 [blogging guidelines]: ../storytelling-resources/blog-guidelines.md
 [YouTube guidelines]: /communication/youtube/youtube-guidelines.md

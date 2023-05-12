@@ -53,6 +53,7 @@ better.
 
 ### Getting Started
 
+- [Contributor Course] - **NEW** - The E-Learning for Contributors course for Kubernetes!
 - [Contributor Guide] - Guide on how to begin contributing to Kubernetes
   Project.
 - [Developer Guide] - Guide to contributing code directly to the Kubernetes
@@ -376,6 +377,7 @@ git push --force
 
 **Note**: you can also ask your reviewer to add the `tide/merge-method-squash` label to your PR (this can be done by a reviewer by issuing the command: `/label tide/merge-method-squash`), this will let the bot take care of squashing _all_ commits that are part of this PR and will not result in removal of the `LGTM` label (if already applied) or re-run of the CI tests.
 
+[contributor course]: https://www.kubernetes.dev/docs/onboarding
 [contributor guide]: /contributors/guide/README.md
 [developer guide]: /contributors/devel/README.md
 [gubernator dashboard]: https://gubernator.k8s.io/pr
@@ -387,7 +389,7 @@ git push --force
 [Kubernetes Code Search]: https://cs.k8s.io/
 [@dims]: https://github.com/dims
 [calendar]: https://calendar.google.com/calendar/embed?src=calendar%40kubernetes.io
-[kubernetes-dev]: https://groups.google.com/forum/#!forum/kubernetes-dev
+[kubernetes-dev]: https://groups.google.com/a/kubernetes.io/g/dev
 [slack channels]: http://slack.k8s.io/
 [Stack Overflow]: https://stackoverflow.com/questions/tagged/kubernetes
 [youtube channel]: https://www.youtube.com/c/KubernetesCommunity/

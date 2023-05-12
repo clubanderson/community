@@ -19,17 +19,20 @@ channels:
     archived: true
   - name: argentina
   - name: arm64
+  - name: atmosphere
   - name: aus-nz-dev
   - name: aus-nz-users
   - name: awesome-kubernetes
   - name: aws-authenticator
   - name: aws-controllers-k8s
+  - name: aws-gateway-api-controller
   - name: aws-vpc-cni
   - name: azure-service-operator
   - name: bazel
   - name: bindings-discuss
   - name: bootkube
     archived: true
+  - name: bpfd
   - name: brigade
   - name: camptocamp-devops-stack
   - name: canonical-kubernetes
@@ -61,6 +64,7 @@ channels:
     archived: true
   - name: cluster-api-gcp
   - name: cluster-api-ibmcloud
+  - name: cluster-api-k3s
   - name: cluster-api-kubemark
   - name: cluster-api-kubevirt
   - name: cluster-api-nested
@@ -100,6 +104,7 @@ channels:
   - name: draft-dev
   - name: draft-users
   - name: druid-operator
+  - name: ebpf
   - name: eks
   - name: elastickube
   - name: elk-charts
@@ -125,7 +130,9 @@ channels:
   - name: fr-users
   - name: fury-distribution
   - name: garden
+    archived: true
   - name: garden-dev
+    archived: true
   - name: gardener
   - name: gimbal
   - name: github
@@ -209,6 +216,7 @@ channels:
   - name: kompose
   - name: kong
   - name: konveyor
+  - name: konveyor-dev
   - name: koordinator
   - name: kops-dev
   - name: kops-users
@@ -243,6 +251,7 @@ channels:
   - name: kubebuilder
   - name: kubecon
   - name: kubectl-trace
+  - name: kubectl-validate
   - name: kubedb
   - name: kubeinit
   - name: kubekhan
@@ -278,6 +287,8 @@ channels:
   - name: kudo
   - name: kurl
   - name: kustomize
+  - name: kwok
+  - name: kwok-dev
   - name: kyverno
   - name: kyverno-dev
   - name: leadership-summit
@@ -289,6 +300,7 @@ channels:
   - name: malaysia-users
   - name: malta-users
   - name: meet-our-contributors
+    archived: true
   - name: meetup-athens
   - name: meetup-atlanta
   - name: meetup-austin
@@ -330,6 +342,7 @@ channels:
   - name: multi-platform
   - name: mysql-operator
   - name: nais
+  - name: nauticus
   - name: navigator
     archived: true
   - name: ncw-staff
@@ -341,6 +354,7 @@ channels:
   - name: octant
   - name: odo
   - name: office-hours
+    archived: true
   - name: okteto
   - name: olm-dev
   - name: open-cluster-mgmt
@@ -361,6 +375,7 @@ channels:
   - name: osbkit
   - name: outreachy-apps
     id: CDH610735
+  - name: paralus
   - name: pharmer
   - name: pinniped
   - name: pl-users
@@ -397,6 +412,7 @@ channels:
   - name: sig-api-machinery-cel-dev
   - name: sig-apps
   - name: sig-auth
+  - name: sig-auth-authenticators-dev
   - name: sig-auth-kms-dev
   - name: sig-auth-triage
   - name: sig-autoscaling
